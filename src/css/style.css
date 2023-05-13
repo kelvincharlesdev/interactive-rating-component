@@ -1,0 +1,174 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var( --very-dark-blue);
+}
+
+main{
+    background-color: var(--dark-blue);
+    margin: 2rem;
+    padding: 4rem 2rem;
+    border-radius: 3rem;
+}
+
+main .card-rating{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+main .card-rating .intro .img-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+main .card-rating .intro h1{
+    margin-top: 3.5rem;
+    color: var(--white);
+    font-weight: 700;
+}
+
+main .card-rating .intro p{
+    margin-top: 1.5rem;
+    color: var(--light-grey);
+    max-width: 33rem;
+}
+
+main .card-rating ul{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .card-rating ul .btn-notes{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: var(--white);
+    background-color:var(--btn);
+    
+   
+    
+}
+
+main .card-rating ul .btn-notes:hover{
+    background-color: var(--orange);
+}
+
+
+main .card-rating ul .btn-notes:focus{
+    background-color: var(--light-grey);
+}
+
+
+
+
+main .card-rating #btn-submit{
+    margin-top: 4rem;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: var(--orange);
+    color: var(--white);
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+}
+
+main .card-rating #btn-submit:hover{
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+
+
+main .card-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .card-note .res-nota{
+    margin-top: 4rem;
+    background-color: var(--btn);
+    max-width: 20rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--orange);
+    
+}
+
+main .card-note .res-nota span{
+    padding: 0 0.4rem;
+}
+
+main .card-note h2{
+    margin-top: 4rem;
+    color: var(--white);
+    font-size: 3.5rem;
+}
+
+main .card-note p{
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--light-grey);
+    max-width: 34rem;
+    line-height: 2.5rem;
+}
+
+main .card-note #btn-voltar{
+    margin-top: 4rem;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: var(--orange);
+    color: var(--white);
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+}
+
+main .card-note #btn-voltar:hover{
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+
+
+
+/* Esconder as sections */
+
+main .card-note.none{
+    display: none;
+}
+
+main .card-rating.none{
+    display: none;
+}
