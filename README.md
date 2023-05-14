@@ -24,7 +24,7 @@ Projeto realizado com o objetivo de criar uma interação com o usuário, onde e
 ## 🖱️ A página
 <img src="src/gif/gif.gif" alt="Gif exibindo o desktop e versão mobile do site">    
 
-> <a href="" target= "_blank">Acesse a página online</a>  
+> <a href="https://interactive-rating-component-ten-mocha.vercel.app/" target= "_blank">Acesse a página online</a>  
 
 
 ## 👩‍💻 Dev

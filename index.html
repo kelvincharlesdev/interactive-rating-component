@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+
     <title>Frontend Mentor | Interactive rating component</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section class="card-rating">
-            <div class="intro">
-                <div class="img-intro">
-                    <img src="src/img/icon-star.svg" alt="Foto de Estrela">
-                </div>
+      <section class="card-rating">
+        <div class="intro">
+          <div class="img-intro">
+            <img src="src/img/icon-star.svg" alt="Foto de Estrela" />
+          </div>
 
-                <h1>How did we do?</h1>
-                <p> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-            </div>
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
 
-            <ul>
-                <li><button class="btn-notes ">1</button></li>
-                <li><button class="btn-notes">2</button></li>
-                <li><button class="btn-notes">3</button></li>
-                <li><button class="btn-notes">4</button></li>
-                <li><button class="btn-notes">5</button></li>
-            </ul>
+        <ul>
+          <li><button class="btn-notes">1</button></li>
+          <li><button class="btn-notes">2</button></li>
+          <li><button class="btn-notes">3</button></li>
+          <li><button class="btn-notes">4</button></li>
+          <li><button class="btn-notes">5</button></li>
+        </ul>
 
-            <button id="btn-submit">SUBMIT</button>
-        </section>
+        <button id="btn-submit">SUBMIT</button>
+      </section>
 
+      <section class="card-note none">
+        <img
+          src="src/img/illustration-thank-you.svg"
+          alt="Foto de ilustração de nota"
+        />
 
-        <section class="card-note  none">
-            <img src="src/img/illustration-thank-you.svg" alt="Foto de ilustração de nota">
+        <p class="res-nota">You selected <span id="nota"> 4 </span> out of 5</p>
 
+        <h2>Thank you!</h2>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
 
-            <p class="res-nota"> You selected <span id="nota"> 4 </span>  out of 5</p>
-
-            <h2> Thank you!</h2>
-            <p>  We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
-
-            <button id="btn-voltar">VOLTAR</button>
-        </section>
+        <button id="btn-voltar">VOLTAR</button>
+      </section>
     </main>
 
-
     <script src="src/js/index.js"></script>
-    
-</body>
+  </body>
 </html>
